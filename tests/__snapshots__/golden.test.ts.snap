@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Golden Output Tests Should analyze simple project and produce expected results 1`] = `
+[
+  {
+    "issues": [],
+    "route": "/",
+    "score": 100,
+  },
+  {
+    "issues": [
+      {
+        "message": "Page is missing Level 1 Heading (<h1>)",
+        "rule": "hasH1",
+        "severity": "error",
+      },
+      {
+        "message": "Thin content detected: Only 16 words.",
+        "rule": "descriptionLength",
+        "severity": "warning",
+        "value": 16,
+      },
+    ],
+    "route": "/about",
+    "score": 65,
+  },
+]
+`;
